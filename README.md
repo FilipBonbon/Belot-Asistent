@@ -23,14 +23,14 @@
 >Android Studio project
 
 ### Build status
-[![Build Status](https://travis-ci.org/mlogic1/Belot-Asistent.svg?branch=master)](https://travis-ci.org/mlogic1/Belot-Asistent)
+[![Build Status](https://travis-ci.org/mlogic1/Belot-Asistent.svg?branch=oreo-update)](https://travis-ci.org/mlogic1/Belot-Asistent)
 
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Filip Radic
+Copyright (c) 2018 Filip Radic
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

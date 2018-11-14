@@ -20,3 +20,7 @@ android:
 
 script:
   - travis_wait 45
+  - ./gradlew build
+  
+before_install:
+    - chmod +x gradlew
