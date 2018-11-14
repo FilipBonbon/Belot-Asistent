@@ -1,9 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Belot Asistent</string>
-
-    <!-- ACTIVITY MAIN -->
-
     <string name="gameStart">POKRENI ZAPISNIK</string>
     <string name="settings">POSTAVKE</string>
-
 </resources>

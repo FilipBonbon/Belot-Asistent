@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="button_green_default_padding">7dp</dimen>
+    <dimen name="button_green_corner_radius">6dp</dimen>
+</resources>

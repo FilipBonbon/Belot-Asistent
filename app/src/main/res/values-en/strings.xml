@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Belot Assistant</string>
+    <string name="gameStart">START SCOREBOARD</string>
+    <string name="settings">SETTINGS</string>
+</resources>

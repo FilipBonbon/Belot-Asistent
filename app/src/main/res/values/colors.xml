@@ -3,4 +3,25 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+
+    <!-- Buttons -->
+
+    <!-- Normal state -->
+    <color name="greenButtonGradStart">#48a999</color>
+    <color name="greenButtonGradEnd">#00796b</color>
+
+    <!-- Pressed state -->
+    <color name="greenButtonGradStartPressed">#6ac7b8</color>
+    <color name="greenButtonGradEndPressed">#26a69a</color>
+
+
+
+    <!-- Disabled button color -->
+    <color name="buttonDisabled">#9e9e9e</color>
+
+
+    <!-- Menu activity background -->
+    <color name="menuActivityBackground">#eceff1</color>
+
 </resources>
