@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_header_general_settings">
+
+        <ListPreference
+            android:key="pref_round_points"
+            android:title="@string/settings_pref_round_points"
+            android:entries="@array/settings_pref_round_points_entries"
+            android:entryValues="@array/settings_pref_round_points_entries"
+            android:summary=""
+            android:defaultValue="1001"/>
+
+        <SwitchPreference
+            android:key="pref_count_rounds"
+            android:title="@string/settings_pref_count_rounds"
+            android:summary="@string/settings_pref_count_rounds_summary"
+            android:defaultValue="true"/>
+
+        <EditTextPreference
+            android:key="pref_name_team_us"
+            android:title="@string/settings_pref_name_team_us"
+            android:summary=""
+            android:defaultValue="@string/settings_pref_name_team_us_default" />
+
+        <EditTextPreference
+            android:key="pref_name_team_you"
+            android:title="@string/settings_pref_name_team_you"
+            android:summary=""
+            android:defaultValue="@string/settings_pref_name_team_you_default"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_header_general_remarks">
+
+        <Preference
+            android:title="@string/settings_pref_last_hand"
+            android:summary="@string/settings_pref_last_hand_summary"
+            />
+
+        <Preference
+            android:title="@string/settings_pref_delete_round"
+            android:summary="@string/settings_pref_delete_round_summary"
+            />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/settings_header_general_about">
+        <Preference
+            android:key="pref_about"
+            android:title="@string/settings_pref_about_application"
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

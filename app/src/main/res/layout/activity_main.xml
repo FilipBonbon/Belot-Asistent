@@ -46,6 +46,7 @@
 
         <Button
             android:id="@+id/buttonSettings"
+            android:onClick="StartSettings"
             style="@style/StandardButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

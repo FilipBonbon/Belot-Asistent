@@ -1,10 +1,9 @@
 package com.merodyadt.belotasistent;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 public class ActivityMain extends AppCompatActivity {
 
@@ -16,7 +15,10 @@ public class ActivityMain extends AppCompatActivity {
 
     public void StartScoreboard(View view){
         // starts the scoreboard
-        Toast.makeText(getApplicationContext(), "Hello world", Toast.LENGTH_LONG);
-        Log.i("TAG", "StartScoreboard: !!!!");
+        // TODO start scoreboard
+    }
+
+    public void StartSettings(View view){
+        startActivity(new Intent(this, ActivitySettings.class));
     }
 }

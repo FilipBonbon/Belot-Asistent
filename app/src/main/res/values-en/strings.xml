@@ -3,4 +3,20 @@
     <string name="app_name">Belot Assistant</string>
     <string name="gameStart">START SCOREBOARD</string>
     <string name="settings">SETTINGS</string>
+    <string name="settings_toolbar_name">Settings</string>
+    <string name="settings_header_general_settings">General settings</string>
+    <string name="settings_header_general_about">About</string>
+    <string name="settings_header_general_remarks">Remarks</string>
+    <string name="settings_pref_round_points">Number of points in one round</string>
+    <string name="settings_pref_count_rounds">Round counter</string>
+    <string name="settings_pref_count_rounds_summary">Display number of played rounds during the game</string>
+    <string name="settings_pref_name_team_us">Left team name</string>
+    <string name="settings_pref_name_team_us_default">We</string>
+    <string name="settings_pref_name_team_you">Right team name</string>
+    <string name="settings_pref_name_team_you_default">You</string>
+    <string name="settings_pref_last_hand">Last hand</string>
+    <string name="settings_pref_last_hand_summary">10 points from the last hand are automatically counted for</string>
+    <string name="settings_pref_delete_round">Round deletion</string>
+    <string name="settings_pref_delete_round_summary">Tap and hold on a round you want to delete and choose Delete round</string>
+    <string name="settings_pref_about_application">About</string>
 </resources>

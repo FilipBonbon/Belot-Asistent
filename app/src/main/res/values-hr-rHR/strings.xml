@@ -3,4 +3,20 @@
     <string name="app_name">Belot Asistent</string>
     <string name="gameStart">POKRENI ZAPISNIK</string>
     <string name="settings">POSTAVKE</string>
+    <string name="settings_toolbar_name">Postavke</string>
+    <string name="settings_header_general_settings">Općenite postavke</string>
+    <string name="settings_header_general_remarks">Napomene</string>
+    <string name="settings_header_general_about">O aplikaciji</string>
+    <string name="settings_pref_round_points">Broj bodova u jednoj rundi</string>
+    <string name="settings_pref_count_rounds">Broji runde</string>
+    <string name="settings_pref_count_rounds_summary">Prikaži broj runda tokom igre</string>
+    <string name="settings_pref_name_team_us">Naziv lijeve ekipe</string>
+    <string name="settings_pref_name_team_us_default">Mi</string>
+    <string name="settings_pref_name_team_you">Naziv desne ekipe</string>
+    <string name="settings_pref_name_team_you_default">Vi</string>
+    <string name="settings_pref_last_hand">Zadnji štih</string>
+    <string name="settings_pref_last_hand_summary">10 bodova od zadnjeg štiha su automatski pribrojeni.</string>
+    <string name="settings_pref_delete_round">Brisanje zapisanih runda</string>
+    <string name="settings_pref_delete_round_summary">Pritisnite i držite na rundu koju želite obrisati i odaberite briši unos.</string>
+    <string name="settings_pref_about_application">O aplikaciji</string>
 </resources>
