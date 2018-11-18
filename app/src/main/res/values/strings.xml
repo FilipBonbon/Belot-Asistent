@@ -11,12 +11,13 @@
 
     <!-- settings headers -->
     <string name="settings_header_general_settings">Općenite postavke</string>
+    <string name="settings_header_general_dealer">Imena igrača</string>
     <string name="settings_header_general_remarks">Napomene</string>
     <string name="settings_header_general_about">O aplikaciji</string>
 
     <!-- general settings preferences -->
     <string name="settings_pref_round_points">Broj bodova u jednoj rundi</string>
-     <!-- summary added from code -->
+    <!-- summary added from code -->
 
     <string-array name="settings_pref_round_points_entries">
         <item>1001</item>
@@ -44,4 +45,11 @@
 
     <!-- about application preferences -->
     <string name="settings_pref_about_application">O aplikaciji</string>
+    <string name="title_activity_scoreboard">Scoreboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 </resources>
