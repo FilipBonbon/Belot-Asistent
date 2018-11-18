@@ -19,4 +19,5 @@
     <string name="settings_pref_delete_round">Brisanje zapisanih runda</string>
     <string name="settings_pref_delete_round_summary">Pritisnite i držite na rundu koju želite obrisati i odaberite briši unos.</string>
     <string name="settings_pref_about_application">O aplikaciji</string>
+    <string name="settings_header_general_dealer">Imena igrača</string>
 </resources>

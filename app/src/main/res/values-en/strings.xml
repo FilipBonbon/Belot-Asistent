@@ -19,4 +19,5 @@
     <string name="settings_pref_delete_round">Round deletion</string>
     <string name="settings_pref_delete_round_summary">Tap and hold on a round you want to delete and choose Delete round</string>
     <string name="settings_pref_about_application">About</string>
+    <string name="settings_header_general_dealer">Player names</string>
 </resources>
