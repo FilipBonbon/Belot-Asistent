@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivitySettings" />
+        <activity android:name=".ActivityScoreboard"/>
     </application>
 
 </manifest>

@@ -24,4 +24,8 @@
     <!-- Menu activity background -->
     <color name="menuActivityBackground">#eceff1</color>
 
+
+    <!-- toast background color -->
+    <color name="toast_background_color">#2A008577</color>
+
 </resources>

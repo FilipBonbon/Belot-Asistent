@@ -7,30 +7,36 @@
     android:background="@color/menuActivityBackground"
     tools:context=".ActivityMain">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/MainApplicationLogo"
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/logoimage"
-        app:layout_constraintBottom_toTopOf="@+id/MainLayoutsContainerButtons"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/activity_main_toolbar" />
 
     <LinearLayout
         android:id="@+id/MainLayoutsContainerButtons"
         android:layout_width="305dp"
-        android:layout_height="337dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainApplicationLogo">
@@ -38,23 +44,24 @@
 
         <Button
             android:id="@+id/buttonStart"
-            android:onClick="StartScoreboard"
             style="@style/StandardButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="StartScoreboard"
             android:text="@string/gameStart" />
 
         <Button
             android:id="@+id/buttonSettings"
-            android:onClick="StartSettings"
             style="@style/StandardButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="StartSettings"
             android:text="@string/settings" />
 
 
     </LinearLayout>
 
+    <!--
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -69,5 +76,8 @@
         android:scaleType="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+-->
+
+
 
 </android.support.constraint.ConstraintLayout>
