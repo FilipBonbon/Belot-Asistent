@@ -38,7 +38,7 @@ public class ActivityScoreboard extends AppCompatActivity {
         // set up drawer
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
-        ImageView figure = findViewById(R.id.toast_figure_1);
+        ImageView figure = findViewById(R.id.test_figure);
         figure.setImageResource(R.drawable.figure_red);
 
         Animation blinking = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.alpha_pulse);
@@ -52,7 +52,7 @@ public class ActivityScoreboard extends AppCompatActivity {
                 Log.d("Hello floating buton", "Test");
 
                 View toastView = getLayoutInflater().inflate(R.layout.toast_current_hand_dealer, null);
-                ImageView figure = toastView.findViewById(R.id.figure_to_animate);
+                ImageView figure = toastView.findViewById(R.id.toast_figure_1);
 
                 Animation blinking = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.alpha_pulse);
                 figure.startAnimation(blinking);
