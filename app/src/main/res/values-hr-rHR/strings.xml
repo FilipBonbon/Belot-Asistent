@@ -20,4 +20,10 @@
     <string name="settings_pref_delete_round_summary">Pritisnite i držite na rundu koju želite obrisati i odaberite briši unos.</string>
     <string name="settings_pref_about_application">O aplikaciji</string>
     <string name="settings_header_general_dealer">Imena igrača</string>
+    <string name="scoreboard_nav_current_score_title">Trenutni rezultat</string>
+    <string name="scoreboard_nav_current_score">0:0</string>
+    <string name="scoreboard_nav_current_card_dealer_title">TRENUTNO MIJEŠA KARTE</string>
+    <string name="desc_main_application_logo">Logo aplikacije</string>
+    <string name="desc_scoreboard_nav_image_player_figure">Ikona igrača</string>
+    <string name="desc_scoreboard_nav_image_table">Ikona stola</string>
 </resources>

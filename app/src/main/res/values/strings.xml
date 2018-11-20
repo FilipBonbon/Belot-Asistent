@@ -6,7 +6,7 @@
     <string name="gameStart">POKRENI ZAPISNIK</string>
     <string name="settings">POSTAVKE</string>
 
-    <!-- settings api -->
+    <!-- SETTINGS API -->
     <string name="settings_toolbar_name">Postavke</string>
 
     <!-- settings headers -->
@@ -45,4 +45,26 @@
 
     <!-- about application preferences -->
     <string name="settings_pref_about_application">O aplikaciji</string>
+
+
+    <!-- ACTIVITY SCOREBOARD -->
+
+    <!-- activity strings -->
+
+    <!-- TODO -->
+
+    <!-- navigation drawer strings -->
+    <string name="scoreboard_nav_current_score_title">Trenutni rezultat</string>
+    <string name="scoreboard_nav_current_score">0:0</string>
+    <string name="scoreboard_nav_current_card_dealer_title">TRENUTNO MIJEŠA KARTE</string>
+
+
+
+
+    <!-- CONTENT DESCRIPTIONS -->
+    <string name="desc_main_application_logo">Logo aplikacije</string>
+    <string name="desc_scoreboard_nav_image_player_figure">Ikona igrača</string>
+    <string name="desc_scoreboard_nav_image_table">Ikona stola</string>
+
+
 </resources>

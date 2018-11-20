@@ -7,7 +7,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
@@ -38,7 +37,7 @@ public class ActivityScoreboard extends AppCompatActivity {
         // set up drawer
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
-        ImageView figure = findViewById(R.id.test_figure);
+        ImageView figure = findViewById(R.id.nav_drawer_player_figure_2);
         figure.setImageResource(R.drawable.figure_red);
 
         Animation blinking = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.alpha_pulse);
@@ -49,8 +48,6 @@ public class ActivityScoreboard extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Hello floating buton", "Test");
-
                 View toastView = getLayoutInflater().inflate(R.layout.toast_current_hand_dealer, null);
                 ImageView figure = toastView.findViewById(R.id.toast_figure_1);
 

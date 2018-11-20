@@ -20,4 +20,10 @@
     <string name="settings_pref_delete_round_summary">Tap and hold on a round you want to delete and choose Delete round</string>
     <string name="settings_pref_about_application">About</string>
     <string name="settings_header_general_dealer">Player names</string>
+    <string name="scoreboard_nav_current_score_title">Current score</string>
+    <string name="scoreboard_nav_current_score">0:0</string>
+    <string name="scoreboard_nav_current_card_dealer_title">CURRENTLY SHUFFLING CARDS</string>
+    <string name="desc_main_application_logo">Application logo</string>
+    <string name="desc_scoreboard_nav_image_player_figure">Player icon</string>
+    <string name="desc_scoreboard_nav_image_table">Table icon</string>
 </resources>
